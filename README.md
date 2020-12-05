@@ -1,5 +1,8 @@
 # java-study
 
+## study link
+https://github.com/whiteship/live-study
+
 ## blog
 https://baeji77.github.io/dev/
 
