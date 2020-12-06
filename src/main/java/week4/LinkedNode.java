@@ -14,10 +14,12 @@ public class LinkedNode {
 
     private int value;
     private LinkedNode next;
+    private LinkedNode pre;
 
     public LinkedNode(int value) {
         this.value = value;
         this.next = null;
+        this.pre = null;
     }
 
     public static LinkedNode getLinkedNodeByPosition(LinkedNode head, int position) {
@@ -52,6 +54,7 @@ public class LinkedNode {
         while (nowLinkedNode != null) {
             if (position == nowPosition) {
                 nodeToAdd.next = nowLinkedNode.next;
+                nodeToAdd.pre = nowLinkedNode;
                 nowLinkedNode.next = nodeToAdd;
                 break;
             }
@@ -103,6 +106,10 @@ public class LinkedNode {
 
     public LinkedNode getNext() {
         return next;
+    }
+
+    public LinkedNode getPre() {
+        return pre;
     }
 
     @Override
