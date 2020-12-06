@@ -1,5 +1,6 @@
-package week4;
+package Homework;
 
+import StudyCode.LinkedNode;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 

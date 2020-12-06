@@ -1,4 +1,4 @@
-package week4;
+package StudyCode;
 
 public class DataStructureException extends RuntimeException {
     public DataStructureException(String message) {
