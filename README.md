@@ -13,3 +13,5 @@ https://baeji77.github.io/dev/
 
 [week4](https://baeji77.github.io/dev/java/java-study-04/)
 
+[week6](https://baeji77.github.io/dev/java/java-study-06/)
+
