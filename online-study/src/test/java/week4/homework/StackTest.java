@@ -1,11 +1,12 @@
-package Homework;
-
-import StudyCode.DataStructureException;
-import StudyCode.Stack;
-import org.junit.jupiter.api.Test;
+package week4.homework;
 
 import static org.assertj.core.api.Assertions.assertThat;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+
+import org.junit.jupiter.api.Test;
+
+import week4.studyCode.DataStructureException;
+import week4.studyCode.Stack;
 
 class StackTest {
 

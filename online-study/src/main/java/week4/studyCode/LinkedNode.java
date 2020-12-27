@@ -1,4 +1,4 @@
-package StudyCode;
+package week4.studyCode;
 
 import java.util.Objects;
 

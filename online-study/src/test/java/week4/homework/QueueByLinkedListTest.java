@@ -1,11 +1,13 @@
-package Homework;
+package week4.homework;
 
-import StudyCode.DataStructureException;
-import StudyCode.QueueByLinkedList;
+
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.junit.jupiter.api.Assertions.assertThrows;
+
+import week4.studyCode.DataStructureException;
+import week4.studyCode.QueueByLinkedList;
 
 class QueueByLinkedListTest {
     @Test

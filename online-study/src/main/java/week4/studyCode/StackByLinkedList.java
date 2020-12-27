@@ -1,4 +1,4 @@
-package StudyCode;
+package week4.studyCode;
 
 /**
  * ListNode head를 가지고 있는 ListNodeStack 클래스를 구현하세요.
@@ -6,21 +6,19 @@ package StudyCode;
  * int pop()을 구현하세요.
  */
 
-public class QueueByLinkedList {
+public class StackByLinkedList {
 
     private LinkedNode head;
-    private LinkedNode end;
     private int size = 0;
 
-    public QueueByLinkedList() {
+    public StackByLinkedList() {
     }
 
     public void push(int number) {
         if (head == null) {
             head = new LinkedNode(number);
-            end = head;
         } else {
-            end = LinkedNode.add(end, new LinkedNode(number), 0);
+            head = LinkedNode.add(head, new LinkedNode(number), 0);
         }
         size++;
     }
@@ -32,7 +30,7 @@ public class QueueByLinkedList {
         size--;
 
         int result = head.getValue();
-        head = head.getNext();
+        head = head.getPre();
         return result;
     }
 }

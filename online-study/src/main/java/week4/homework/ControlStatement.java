@@ -1,4 +1,4 @@
-package Homework;
+package week4.homework;
 
 import java.util.Iterator;
 import java.util.LinkedList;

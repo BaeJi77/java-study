@@ -1,4 +1,4 @@
-package StudyCode;
+package week4.studyCode;
 
 /**
  * int 배열을 사용해서 정수를 저장하는 Stack을 구현하세요.

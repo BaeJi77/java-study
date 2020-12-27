@@ -1,4 +1,4 @@
-package StudyCode;
+package week4.studyCode;
 
 /**
  * 배열을 사용해서 한번

@@ -1,10 +1,12 @@
-package Homework;
+package week4.homework;
 
-import StudyCode.LinkedNode;
+
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
+
+import week4.studyCode.LinkedNode;
 
 public class LinkedNodeTest {
 
